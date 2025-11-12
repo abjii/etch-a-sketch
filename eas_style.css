@@ -4,11 +4,17 @@
   box-sizing: border-box;
 }
 
+.center{
+    margin: 0 auto;
+    width: 560px;
+    justify-items: center;
+}
+
 #container{
     border: 2px solid black;
     width: 560px;
     height: 560px;
-    margin: 100px auto;
+    margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -17,4 +23,10 @@
 
 #container div{
 border: 1px solid grey;
+}
+
+#nRowsButton{
+  background-color: rgb(18, 18, 180);
+  font-size: 25px;
+  color: white;
 }
