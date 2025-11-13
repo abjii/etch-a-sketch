@@ -12,6 +12,13 @@
   text-align: center;
 }
 
+main {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  margin: 0 auto;
+}
+
 #container,
 #container div {
   user-select: none;
@@ -22,7 +29,7 @@
   border: 2px solid black;
   width: 560px;
   height: 560px;
-  margin: 25px auto;
+  margin: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -33,8 +40,19 @@
   border: 1px solid grey;
 }
 
-#nRowsButton {
+button {
   background-color: rgb(18, 18, 180);
   font-size: 25px;
   color: white;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings > button {
+  font-size: 20px;
+  margin: 10px;
+  height: 72px;
 }
